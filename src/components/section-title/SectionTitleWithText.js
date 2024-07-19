@@ -6,13 +6,10 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
     <div className={clsx("welcome-area", spaceTopClass, spaceBottomClass)}>
       <div className="container">
         <div className="welcome-content text-center">
-          <h5>Who Are We</h5>
-          <h1>Welcome To Flone</h1>
+          <h5>Acerca de DeerCoton</h5>
+          <h1>Nuestra Historia, Misión y Valores</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commo consequat irure{" "}
+          En DeerCoton, nos dedicamos a la comercialización de prendas de vestir de alta calidad, destacándonos en el sector textil por nuestro compromiso con la innovación, la sostenibilidad y la excelencia. Desde nuestra fundación, hemos trabajado arduamente para satisfacer las necesidades del mercado de boutiques y cadenas comerciales, ofreciendo una amplia gama de pantalones para dama, caballero y niños, diseñados con los mejores estándares de confección y materiales de primera calidad.{" "}
           </p>
         </div>
       </div>

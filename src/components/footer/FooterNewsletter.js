@@ -12,12 +12,11 @@ const FooterNewsletter = ({
   return (
     <div className={clsx("footer-widget", spaceBottomClass, sideMenu ? "ml-ntv5" : spaceLeftClass, widgetColorClass)}>
       <div className="footer-title">
-        <h3>SUBSCRIBE</h3>
+        <h3>ACERCA DE</h3>
       </div>
       <div className={clsx("subscribe-style", colorClass)}>
-        <p>Get E-mail updates about our latest shop and special offers.</p>
-        {/* subscribe email */}
-        <SubscribeEmail mailchimpUrl="//devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" />
+        <p>DeerCoton es una marca comprometida con la comercialización de prendas de vestir de alta calidad, destacándose por su innovación y sostenibilidad en la industria textil.</p>
+   
       </div>
     </div>
   );

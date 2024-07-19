@@ -28,7 +28,7 @@ const HeroSliderThirtyThree = () => {
                 <h1 dangerouslySetInnerHTML={{ __html: sliderData.subtitle }} />
                 <div className="slider-btn btn-hover">
                   <Link to={process.env.PUBLIC_URL + sliderData.url}>
-                    SHOP NOW
+                  Explorar Colección
                   </Link>
                 </div>
               </div>

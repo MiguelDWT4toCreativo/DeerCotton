@@ -8,7 +8,7 @@ const MobileWidgets = () => {
           <ul className="header-contact-info__list">
             <li>
               <i className="fa fa-phone"></i>{" "}
-              <a href="tel://12452456012">(1245) 2456 012 </a>
+              <a href="tel://12452456012">+52 771 184 5809 </a>
             </li>
             <li>
               <i className="fa fa-envelope"></i>{" "}
@@ -19,17 +19,11 @@ const MobileWidgets = () => {
       </div>
       {/*Off Canvas Widget Social Start*/}
       <div className="off-canvas-widget-social">
-        <a href="//twitter.com" title="Twitter">
-          <i className="fa fa-twitter"></i>
-        </a>
-        <a href="//instagram.com" title="Instagram">
+        <a href="https://www.instagram.com/deercottonscomx/" title="Instagram">
           <i className="fa fa-instagram"></i>
         </a>
-        <a href="//facebook.com" title="Facebook">
+        <a href="https://www.facebook.com/Deercottons" title="Facebook">
           <i className="fa fa-facebook"></i>
-        </a>
-        <a href="//pinterest.com" title="Pinterest">
-          <i className="fa fa-pinterest"></i>
         </a>
       </div>
       {/*Off Canvas Widget Social End*/}

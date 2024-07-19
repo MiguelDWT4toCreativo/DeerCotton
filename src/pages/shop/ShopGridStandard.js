@@ -58,8 +58,8 @@ const ShopGridStandard = () => {
                 {/* breadcrumb */}
                 <Breadcrumb 
                     pages={[
-                        {label: "Home", path: process.env.PUBLIC_URL + "/" },
-                        {label: "Shop", path: process.env.PUBLIC_URL + pathname }
+                        {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+                        {label: "Catálogo", path: process.env.PUBLIC_URL + pathname }
                     ]} 
                 />
 

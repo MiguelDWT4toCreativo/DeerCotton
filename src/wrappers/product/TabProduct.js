@@ -16,7 +16,7 @@ const TabProduct = ({
       className={clsx("product-area", spaceTopClass, spaceBottomClass, bgColorClass)}
     >
       <div className="container">
-        <SectionTitle titleText="DAILY DEALS!" positionClass="text-center" />
+        <SectionTitle titleText="OFERTAS CLAVE" positionClass="text-center" />
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
             variant="pills"
@@ -24,17 +24,17 @@ const TabProduct = ({
           >
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
-                <h4>New Arrivals</h4>
+                <h4>Los recién llegados</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="bestSeller">
-                <h4>Best Sellers</h4>
+                <h4>Los más vendidos</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="saleItems">
-                <h4>Sale Items</h4>
+                <h4>Artículos a la venta</h4>
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -17,9 +17,9 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          Deer Cottons & Co. 
         </a>
-        .<br /> All Rights Reserved
+        .<br /> Todos los Derechos Reservados
       </p>
     </div>
   );

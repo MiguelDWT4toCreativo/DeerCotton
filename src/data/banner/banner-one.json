@@ -2,24 +2,24 @@
   {
     "id": 1,
     "image": "/assets/img/banner/banner-1.jpg",
-    "title": "Watches",
-    "subtitle": "Starting at",
+    "title": "Dama",
+    "subtitle": "Desde",
     "price": "$99.00",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
     "image": "/assets/img/banner/banner-2.jpg",
-    "title": "Plo Bag",
-    "subtitle": "Starting at",
+    "title": "Caballero",
+    "subtitle": "Desde",
     "price": "$79.00",
     "link": "/shop-grid-standard"
   },
   {
     "id": 3,
     "image": "/assets/img/banner/banner-3.jpg",
-    "title": "Sunglass",
-    "subtitle": "Starting at",
+    "title": "Niños",
+    "subtitle": "Desde",
     "price": "$29.00",
     "link": "/shop-grid-standard"
   }

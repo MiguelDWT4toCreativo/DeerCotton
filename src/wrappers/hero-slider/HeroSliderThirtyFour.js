@@ -24,7 +24,7 @@ const HeroSliderThirtyFour = () => {
                     className="animated"
                     to={process.env.PUBLIC_URL + sliderData.url}
                   >
-                    SHOP NOW
+                    Explorar Colección
                   </Link>
                 </div>
               </div>

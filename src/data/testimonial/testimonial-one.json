@@ -2,15 +2,15 @@
   {
     "id": "1",
     "image": "/assets/img/testimonial/testi-1.png",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "customerName": "Grace Alvarado",
-    "title": "customer"
+    "content": "Los pantalones de DeerCoton han sido un éxito en nuestra tienda. La calidad de la tela y el ajuste perfecto han recibido elogios constantes de nuestros clientes. Sin duda, seguiremos comprando al por mayor.",
+    "customerName": "María G.",
+    "title": "Propietaria de Boutique Elegance"
   },
   {
     "id": "2",
     "image": "/assets/img/testimonial/testi-1.png",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "customerName": "John Doe",
-    "title": "customer"
+    "content": "Hemos trabajado con varias marcas, pero DeerCoton se destaca por su compromiso con la sostenibilidad y la calidad. Nuestros clientes valoran mucho estos aspectos, y nosotros también.",
+    "customerName": "Carlos P.",
+    "title": "Gerente de Compras en Trendy Styles"
   }
 ]

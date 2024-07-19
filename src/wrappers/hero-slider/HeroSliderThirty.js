@@ -23,7 +23,7 @@ const HeroSliderThirty = () => {
                   className="button"
                   to={process.env.PUBLIC_URL + sliderData.url}
                 >
-                  Shop Now
+                  Explorar Colección
                 </Link>
               </div>
             </div>

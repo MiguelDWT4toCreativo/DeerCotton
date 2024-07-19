@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/assets/img/icon-img/support-1.png",
-    "title": "Free Shipping",
-    "subtitle": "Free shipping on all order"
+    "title": "Calidad Superior",
+    "subtitle": "Materiales de primera calidad garantizando durabilidad y confort."
   },
   {
     "id": 2,
     "image": "/assets/img/icon-img/support-2.png",
-    "title": "Support 24/7",
-    "subtitle": "Free shipping on all order"
+    "title": "Innovación Sostenible",
+    "subtitle": "Comprometidos con prácticas sostenibles que cuidan del medio ambiente."
   },
   {
     "id": 3,
     "image": "/assets/img/icon-img/support-3.png",
-    "title": "Money Return",
-    "subtitle": "Free shipping on all order"
+    "title": "Proceso de Lavandería Avanzado",
+    "subtitle": "Tecnologías de lavandería que aseguran un acabado impecable y duradero en cada prenda."
   },
   {
     "id": 4,
     "image": "/assets/img/icon-img/support-4.png",
-    "title": "Order Discount",
-    "subtitle": "Free shipping on all order"
+    "title": "Atención al Cliente 24/7",
+    "subtitle": "Estamos disponibles en todo momento para asistirte con cualquier consulta."
   }
 ]

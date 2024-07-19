@@ -22,7 +22,7 @@ SEO.propTypes = {
 
 SEO.defaultProps = {
     title: "DeerCotton",
-    description: "DeerCotton - Calidad, Sostenibilidad y comodidad.",
+    description: "Calidad, Sostenibilidad y Comodidad.",
 };
 
 export default SEO;

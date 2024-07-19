@@ -59,7 +59,7 @@ const HomeOnepageScroll = () => {
                                 className="animated"
                                 to={process.env.PUBLIC_URL + single.url}
                               >
-                                SHOP NOW
+                                Explorar Colección
                               </Link>
                             </div>
                           </div>

@@ -16,15 +16,15 @@ const About = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="About us"
+        titleTemplate="Acerca de"
         description="About page of flone react minimalist eCommerce template."
       /> 
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "About us", path: process.env.PUBLIC_URL + pathname }
+            {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+            {label: "Acerca de", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
 
@@ -36,16 +36,6 @@ const About = () => {
 
         {/* text grid */}
         <TextGridOne spaceBottomClass="pb-70" />
-
-        {/* fun fact */}
-        <FunFactOne
-          spaceTopClass="pt-100"
-          spaceBottomClass="pb-70"
-          bgClass="bg-gray-3"
-        />
-
-        {/* team member */}
-        <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
 
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />

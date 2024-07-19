@@ -26,7 +26,7 @@ const CtaTwo = ({ spaceTopClass, spaceBottomClass }) => {
                 className="cta-btn"
                 to={process.env.PUBLIC_URL + "/shop-grid-standard"}
               >
-                SHOP NOW
+                Explorar Colección
               </Link>
             </div>
           </div>
