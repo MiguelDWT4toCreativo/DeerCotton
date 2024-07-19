@@ -10,7 +10,7 @@ const HomeFashion = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate=""
+        titleTemplate="DeerCotton"
         description="DeerCotton - Calidad, Sostenibilidad, comodidad."
       />
       <LayoutOne

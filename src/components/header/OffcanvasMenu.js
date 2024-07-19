@@ -15,15 +15,16 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
           <span className="pe-7s-close"></span>
         </button>
       </div>
-      <div className="side-logo">
+      <div className="side-logo" style={{ width: '100px' }}>
         <Link to={process.env.PUBLIC_URL + "/"}>
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
+            src={process.env.PUBLIC_URL + ""}
+            style={{ maxWidth: '100%', height: '100px' }}  // Ajusta maxWidth según el tamaño máximo deseado
           />
-
         </Link>
       </div>
+
       {/* nav menu*/}
       <NavMenu sidebarMenu={true} />
 
