@@ -10,7 +10,7 @@ import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BannerThirtyThree from "../../wrappers/banner/BannerThirtyThree";
 import CountDownSeven from "../../wrappers/countdown/CountDownSeven";
 
-const HomeBlackFriday = () => {
+const HomeBlackFridayCaballero = () => {
   return (
     <Fragment>
       <SEO
@@ -19,7 +19,7 @@ const HomeBlackFriday = () => {
       />
       <LayoutTen>
         {/* hero slider */}
-        <HeroSliderThirtyFour/>
+        <HeroSliderThirtyFour />
         {/* countdown */}
         {/* <CountDownSeven
           dateTime="November 13, 2024 12:12:00"
@@ -34,7 +34,7 @@ const HomeBlackFriday = () => {
         /> */}
         {/* tab product */}
         <TabProductTwentyOne
-          category="Dama"
+          category="Caballero"
           productTabClass="product-tab-pink product-tab-white"
           bgColorClass="bg-black-2"
           spaceBottomClass="pb-100"
@@ -66,4 +66,4 @@ const HomeBlackFriday = () => {
   );
 };
 
-export default HomeBlackFriday;
+export default HomeBlackFridayCaballero;

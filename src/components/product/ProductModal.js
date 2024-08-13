@@ -85,7 +85,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                 })}
             </Swiper>
           </div>
-          <div className="product-small-image-wrapper mt-15">
+          {/* <div className="product-small-image-wrapper mt-15">
             <Swiper options={thumbnailSwiperParams}>
               {product.image &&
                 product.image.map((img, i) => {
@@ -102,7 +102,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                   );
                 })}
             </Swiper>
-          </div>
+          </div> */}
         </div>
         <div className="col-md-7 col-sm-12 col-xs-12">
           <div className="product-details-content quickview-content">
@@ -268,7 +268,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                       disabled={productCartQty >= productStock}
                     >
                       {" "}
-                      Add To Cart{" "}
+                      Comprar{" "}
                     </button>
                   ) : (
                     <button disabled>Out of Stock</button>

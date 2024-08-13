@@ -5,6 +5,10 @@ import Nav from "react-bootstrap/Nav";
 import SectionTitleThree from "../../components/section-title/SectionTitleThree";
 import ProductGridTwo from "./ProductGridTwo";
 
+
+
+// AQUI MODIFIQUE COSAS
+
 const TabProductTwentyOne = ({
   spaceBottomClass,
   category,
@@ -13,9 +17,11 @@ const TabProductTwentyOne = ({
 }) => {
   return (
     <div className={clsx("product-area", spaceBottomClass, bgColorClass)}>
+      <br></br>
+      <br></br>
       <div className="container">
         <SectionTitleThree
-          titleText="Featured Product"
+          titleText="Productos Destacados"
           positionClass="text-center"
           colorClass="text-white"
         />
@@ -25,50 +31,18 @@ const TabProductTwentyOne = ({
             className={clsx("product-tab-list pt-35 pb-60 text-center", productTabClass)}
           >
             <Nav.Item>
-              <Nav.Link eventKey="newArrival">
-                <h4>New Arrivals</h4>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link eventKey="bestSeller">
                 <h4>Best Sellers</h4>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="saleItems">
-                <h4>Sale Items</h4>
-              </Nav.Link>
-            </Nav.Item>
           </Nav>
           <Tab.Content>
-            <Tab.Pane eventKey="newArrival">
-              <div className="row">
-                <ProductGridTwo
-                  category={category}
-                  type="new"
-                  limit={8}
-                  spaceBottomClass="mb-25"
-                  titlePriceClass="title-price-wrap-2-white"
-                />
-              </div>
-            </Tab.Pane>
             <Tab.Pane eventKey="bestSeller">
               <div className="row">
                 <ProductGridTwo
                   category={category}
                   type="bestSeller"
-                  limit={8}
-                  spaceBottomClass="mb-25"
-                  titlePriceClass="title-price-wrap-2-white"
-                />
-              </div>
-            </Tab.Pane>
-            <Tab.Pane eventKey="saleItems">
-              <div className="row">
-                <ProductGridTwo
-                  category={category}
-                  type="saleItems"
-                  limit={8}
+                  limit={20}
                   spaceBottomClass="mb-25"
                   titlePriceClass="title-price-wrap-2-white"
                 />

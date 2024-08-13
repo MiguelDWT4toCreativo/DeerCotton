@@ -14,12 +14,12 @@ const HomeBlackFriday = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Black friday Home"
+        titleTemplate="Hola"
         description="Black friday home of flone react minimalist eCommerce template."
       />
       <LayoutTen>
         {/* hero slider */}
-        <HeroSliderThirtyFour/>
+        <HeroSliderThirtyFour />
         {/* countdown */}
         {/* <CountDownSeven
           dateTime="November 13, 2024 12:12:00"
@@ -34,7 +34,7 @@ const HomeBlackFriday = () => {
         /> */}
         {/* tab product */}
         <TabProductTwentyOne
-          category="Dama"
+          category="Niños"
           productTabClass="product-tab-pink product-tab-white"
           bgColorClass="bg-black-2"
           spaceBottomClass="pb-100"

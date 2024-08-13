@@ -5,6 +5,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
+//aqui modifique niños
+const HomeBlackFridayKids = lazy(() => import("./pages/home/HomeBlackFridayNiños"));
+// aqui modifique caballero
+const HomeBlackFridayCaballero = lazy(() => import("./pages/home/HomeBlackFridayCaballero"));
+
+
 
 // shop pages
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
@@ -48,6 +54,21 @@ const App = () => {
                 path={process.env.PUBLIC_URL + "/home-black-friday"}
                 element={<HomeBlackFriday/>}
               />
+
+              {/* aqui modifique */}
+              {/* //Niños */}
+              <Route
+                path={process.env.PUBLIC_URL + "/home-black-friday-kids"}
+                element={<HomeBlackFridayKids/>}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/home-black-friday-men"}
+                element={<HomeBlackFridayCaballero/>}
+              />
+
+
+
+
               
               {/* Shop pages */}
               <Route

@@ -64,8 +64,8 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-black-friday"}>
-                      {t("Ninos")}
+                    <Link to={process.env.PUBLIC_URL + "/home-black-friday-kids"}>
+                      {t("Niños")}
                     </Link>
                   </li>
                   <li>
@@ -74,7 +74,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-black-friday"}>
+                    <Link to={process.env.PUBLIC_URL + "/home-black-friday-men"}>
                       {t("Caballero")}
                     </Link>
                   </li>
