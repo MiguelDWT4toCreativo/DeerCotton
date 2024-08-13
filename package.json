@@ -2,7 +2,7 @@
   "name": "flone-react",
   "version": "2.0.0",
   "private": true,
-  "homepage": "http://deercotton.4tocreativo.mx/",
+  "homepage": "https://MiguelDWT4toCreativo.github.io/DeerCotton/",
   "dependencies": {
     "@hasanm95/cogo-toast": "git+https://github.com/hasanm95/cogo-toast.git",
     "@reduxjs/toolkit": "^1.8.6",
@@ -37,6 +37,8 @@
     "yet-another-react-lightbox": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "redux-devtools-extension": "^2.13.8",
     "sass": "^1.29.0"
   }
